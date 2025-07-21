@@ -1,4 +1,3 @@
-![Visitor Badge](https://visitor-badge.glitch.me/badge?page_id=selim-ba.computer-vision)
 # A collection of Computer Vision projects
 
 1) Image Generation with GANs and DCGANs [repo url] [Medium Article]
