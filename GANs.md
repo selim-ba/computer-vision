@@ -30,9 +30,9 @@ Now, the discriminator, which is also a multilayer perceptron $D(x,\theta_d)$, r
 ## The adversarial training
 The generator and the discriminator are trained simultaneously in a two-player minmax game. 
 
-The discriminator D is trained to maximize the probability of assigning the correct label to both training examples $x$ and samples from G (i.e. G(z), i.e. x_{\text{fake}}). In other terms, the discriminator tries to correctly classify inputs as real or fake.
+The discriminator D is trained to maximize the probability of assigning the correct label to both training examples $x$ and samples from G (i.e. G(z), i.e. $x_{\text{fake}}$). In other terms, the discriminator tries to correctly classify inputs as real or fake.
 
-The generator is trained to minimize $log(1-D(G(z)))$. In other terms, the generator tries to produce outputs that are indistinguishable from real data. If the generator becomes so good that $x \approx x_{\text{fake}}$, then as $G(z) = x_{\text{fake}}$, we have $D(G(z)) \approx D(x)$. By definition $D(x) \approx 1$, which minimizes $log(1-D(G(z)))$.
+The generator is trained to minimize $log(1-D(G(z)))$. In other terms, the generator tries to produce outputs that are indistinguishable from real data. If the generator becomes so good that $x_{\text{real}} \approx x_{\text{fake}}$, then as $G(z) = x_{\text{fake}}$, we have $D(G(z)) \approx D(x)$. By definition $D(x_{\text{real}}) \approx 1$, which minimizes $log(1-D(G(z)))$.
 
 - Continue with Objective function, etc ...
 
