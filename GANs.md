@@ -20,5 +20,7 @@ To overcome this issue, the paper introduces a lower-dimensional latent variable
 
 The idea now, is to define the generative model implicitly by learning a function $G(z,\theta_g)$. G is a differentiable function represented by a multilayer preceptron with parameters $\theta_g$, that maps $z$ to the data space : $x_{\text{fake}} = G(z)$, $z \sim p_z(z)$.
 
-This defines the generator's distribution $p_g$ over $x$. The generator learns to produce samples that look like they came from $p_{\text{data}}(x)$
+This defines the generator's distribution $p_g$ over $x$. The generator learns a function $G(z)$ that transforms $z$ into data-like outputs, in other terms, it learns to produce samples that look like they came from $p_{\text{data}}(x)$.
+
+Now, the discriminator, which is also a multilayer perceptron $D(x,\theta_d)$, receives as input either a real data sample $x \sim p_{\text{data}}(x)$ or a generated sample $G(z)$, and outputs single scalar $D(x)$, that represents the probability that $x$ came from the real data rather than from $p_g$. $D(x) \in [0,1]$ by definition.
 
