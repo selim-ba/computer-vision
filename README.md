@@ -1,5 +1,5 @@
 # A collection of Computer Vision projects
-$\theta$
+
 1) Image Generation with GANs and DCGANs [repo url] [Medium Article]
 2) Image Generation with Diffusion Models [repo url] [Medium Article]
 3) Transfer Learning with Pix2Pix and CycleGAN [repo url] [Medium Article]
