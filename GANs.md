@@ -14,5 +14,5 @@ Through this adversarial process, both models are expected to improve over time:
 
 Let $x$ be a sample from the real data distribution, such that $x \sim p_{\text{data}}(x)$, where $p_{\text{data}}(x)$ represents the unknown distribution of the real data. 
 
-In probabilistic terms, we want to learn a generative model $p_{\text{\theta}}(x)$, such that $\theta$ is optimized to approximate the true data distribution $p_{\text{\theta}}(x) \sim p_{\text{data}}(x)$.
+In probabilistic terms, we want to learn a generative model $p_\theta(x)$, where $\theta$ represents the model parameters. The goal is to optimize $\theta$ such that the model distribution $p_\theta(x)$ approximates the true data distribution $p_{\text{data}}(x)$.
 
