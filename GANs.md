@@ -4,5 +4,5 @@ In this article, we will see how Generative Adversarial Networks (GANs) [1]  wor
 
 # 1 - Intro to Generative Adversarial Networks
 
-Generative Adversarial Networks (GANs) were introduced by Ian Goodfellow (2014) as $a new framework for estimating generative models via an adversarial process, in which two models , discriminator & generator, are trained simultaneously.$
+Generative Adversarial Networks (GANs) were introduced by Ian Goodfellow (2014) as $a new framework for estimating generative models via an adversarial process, in which two models , discriminator and generator, are trained simultaneously.$
 
