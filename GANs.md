@@ -18,5 +18,7 @@ In probabilistic terms, we want to learn a generative model $p_\theta(x)$, where
 
 To overcome this issue, the paper introduces a lower-dimensional latent variable $z$, drawn from a known distribution $p_z(z)$, such as a gaussian distribution. $p_z(z)$ are defined as "noise variables" by Goodfellow. 
 
-The idea now, is to define the generative model implicitly by learning a function $G(z,\theta_g)$. G is a differentiable function represented by a multilayer preceptron with parameters $\theta_g$, that maps $z$ to the data space : $x_fake = G(z)$, $z \sim p_z(z)$.
+The idea now, is to define the generative model implicitly by learning a function $G(z,\theta_g)$. G is a differentiable function represented by a multilayer preceptron with parameters $\theta_g$, that maps $z$ to the data space : $x_{\text{fake}} = G(z)$, $z \sim p_z(z)$.
+
+This defines the generator's distribution $p_g$ over $x$. The generator learns to produce samples that look like they came from $p_{\text{data}}(x)$
 
