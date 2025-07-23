@@ -12,8 +12,7 @@ Through this adversarial process, both models are expected to improve over time:
 
 # 2 - Underlying theory of GANs
 
-Let $x$ be a sample from the real data distribution, such that : $x \sim p_{\text{data}}(x)$, where $p_{\text{data}}(x)$ represents the unknown distribution of the real data. 
+Let $x$ be a sample from the real data distribution, such that $x \sim p_{\text{data}}(x)$, where $p_{\text{data}}(x)$ represents the unknown distribution of the real data. 
 
-
-In probabilistic terms, we want to learn a generative model parametrized by
+In probabilistic terms, we want to learn a generative model $p_{\text{\theta}}(x)$, such that $\theta$ is optimized to approximate the true data distribution $p_{\text{\theta}}(x) \sim p_{\text{data}}(x)$.
 
