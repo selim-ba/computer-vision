@@ -37,17 +37,18 @@ The generator is trained to minimize $log(1-D(G(z)))$. In other terms, the gener
 We can express the two-player min-max game as follows : 
 
 ![GAN_value_function](./gan_value_function.png)
-
-## Training procedure
+## Training procedure (theory)
 The training alternates between the discriminator and the generator. To update $D$, we fix $G$ and train $D$ to distinguish real from fake samples. To update $G$, we fix $D$ and train $G$ to fool $D$.
 
 Goodfellow points out that in practice we can train $G$ to maximize $log(D(G(z)))$ rathar than training $G$ to minimize $log(1-D(G(z)))$. The reason is that "early in the learning, when $G$ is poor, $D$ can reject samples with high confidence because they are clearly different from the training data, which leads $log(1-D(G(z)))$ to saturate, and so the original min-max formulation may not provide sufficient gradient for $G$ to learn well."
 
-So in practice, the two-player min-max game resembles a two-player "min-min" game, as both networks minimize their own separate loss function (maximizing $log(D(G(z)))$ is same as minimizing $-log(D(G(z)))$). But that's a heuristic and not the original formulation of the two-player min-max game ...
+So in practice, the two-player min-max game resembles a two-player "min-min" game, as both networks minimize their own separate loss function (maximizing $log(D(G(z)))$ is same as minimizing -$log(D(G(z)))$ ). But that's a heuristic and not the original formulation of the two-player min-max game ...
 
 ## Optimal disciriminator
 
 The optimal $D$ is obtained when $G$ captures the real data distribution $p_{\text{g}}(x) = p_{\text{data}}(x)$. At equilibrium, $D$ is maximally confused, meaning it cannot distinguish real samples from fake ones, and $D(x) = 0.5$, for all $x$ (Proof in the paper if interested).
+
+## Training procedure (in practice)
 
 
 
