@@ -47,7 +47,7 @@ So in practice, the two-player min-max game resembles a two-player "min-min" gam
 
 ## Optimal disciriminator
 
-The optimal $D$ is obtained when $G$ captures the real data distribution $p_{\text{g}}(x) = p_{\text{data}}(x)$. At equilibrium, $D$ is maximally confused, meaning it cannot distinguish real samples from fake ones, and $D(x) = x$, for all $x$ (Proof in the paper if interested).
+The optimal $D$ is obtained when $G$ captures the real data distribution $p_{\text{g}}(x) = p_{\text{data}}(x)$. At equilibrium, $D$ is maximally confused, meaning it cannot distinguish real samples from fake ones, and $D(x) = 0.5$, for all $x$ (Proof in the paper if interested).
 
 
 
