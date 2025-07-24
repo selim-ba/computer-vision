@@ -49,6 +49,8 @@ So in practice, the two-player min-max game resembles a two-player "min-min" gam
 The optimal $D$ is obtained when $G$ captures the real data distribution $p_{\text{g}}(x) = p_{\text{data}}(x)$. At equilibrium, $D$ is maximally confused, meaning it cannot distinguish real samples from fake ones, and $D(x) = 0.5$, for all $x$ (Proof in the paper if interested).
 
 ## Training procedure (in practice)
+In practice, GANs rely on (minibatch) Stochastic Gradient Descent to train the generator and the discriminator. (If you're not familiar with SGD, I recommand this video : https://www.youtube.com/watch?v=UmathvAKj80).
+
 
 ## Algorithms (with PyTorch)
 
