@@ -28,7 +28,7 @@ This defines the generator's distribution $p_g$ over $x$. The generator learns a
 Now, the discriminator, which is also a multilayer perceptron $D(x,\theta_d)$, receives as input either a real data sample $x \sim p_{\text{data}}(x)$ or a generated sample $G(z)$, and outputs single scalar $D(x)$, that represents the probability that $x$ came from the real data rather than from $p_g$. $D(x) \in [0,1]$ by definition.
 
 ## The adversarial training
-The generator and the discriminator are trained simultaneously in a two-player minmax game with the value function $V(G,D)$.
+The generator and the discriminator are trained simultaneously in a two-player minmax game with the value function $V(D,G)$.
 
 The discriminator D is trained to maximize the probability of assigning the correct label to both training examples $x$ and samples from G (i.e. G(z), i.e. $x_{\text{fake}}$). In other terms, the discriminator tries to correctly classify inputs as real or fake.
 
