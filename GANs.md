@@ -35,6 +35,7 @@ The discriminator D is trained to maximize the probability of assigning the corr
 The generator is trained to minimize $log(1-D(G(z)))$. In other terms, the generator tries to produce outputs that are indistinguishable from real data. If the generator becomes so good that $x_{\text{real}} \approx x_{\text{fake}}$, then as $G(z) = x_{\text{fake}}$, we have $D(G(z)) \approx D(x)$. By definition $D(x_{\text{real}}) \approx 1$, which minimizes $log(1-D(G(z)))$.
 
 We can express the two-player minmax game as follows : 
+
 ![GAN objective](./gan_value_function.png)
 
 
