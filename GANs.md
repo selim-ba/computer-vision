@@ -50,6 +50,14 @@ The optimal $D$ is obtained when $G$ captures the real data distribution $p_{\te
 
 ## Training procedure (in practice)
 
+## Algorithms (with PyTorch)
+
+## Application on the MNIST dataset
+
+## What's next ?
+Now that we've seen how GANs can be used to generate images, we will dive into Deep Convolutional GANs and try to generate human faces [url_next_article]
+
+
 
 
 
