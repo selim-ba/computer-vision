@@ -35,11 +35,7 @@ The discriminator D is trained to maximize the probability of assigning the corr
 The generator is trained to minimize $log(1-D(G(z)))$. In other terms, the generator tries to produce outputs that are indistinguishable from real data. If the generator becomes so good that $x_{\text{real}} \approx x_{\text{fake}}$, then as $G(z) = x_{\text{fake}}$, we have $D(G(z)) \approx D(x)$. By definition $D(x_{\text{real}}) \approx 1$, which minimizes $log(1-D(G(z)))$.
 
 We can express the two-player minmax game as follows :
-$$
-\min_G \max_D V(D, G) = 
-\mathbb{E}_{x \sim p_{\text{data}}(x)} \left[ \log D(x) \right] +
-\mathbb{E}_{z \sim p_z(z)} \left[ \log \left( 1 - D(G(z)) \right) \right]
-$$
+$\min_G \max_D V(D, G) = \mathbb{E}_{x \sim p_{\text{data}}(x)} \left[ \log D(x) \right] + \mathbb{E}_{z \sim p_z(z)} \left[ \log \left( 1 - D(G(z)) \right) \right]$
 
 
 
