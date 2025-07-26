@@ -1,11 +1,14 @@
-# A collection of Computer Vision projects
+# A Collection of Computer Vision Projects
 
-1) Image Generation with GANs and DCGANs [repo url]
-2) Transfer Learning with Pix2Pix and CycleGAN [repo url]
-3) 
-4) Image Segmentation with Mask R-CNN, U-Net and U-Net [repo url]
-5) Object Detection with Fast R-CNN and YOLO [repo url]
-6) 
-7) Image Generation with Diffusion Models [repo url] 
-8) Multimodal Tasks with VisionTransformers and CLIP [repo url] 
-9) Feature Extraction with DINO and Masked Auto-Encoder [repo url] 
+This repository presents some computer vision projects I have worked on. For each project, there is a link to the associated article and code (except for the Work In Progress section).
+
+## Projects
+- **Image Generation with Generative Adversarial Networks**  
+  [👉 Code](https://github.com/selim-ba/computer-vision/blob/main/cv_1_gan.py) | [👉 Article](link is comming)
+
+## Work in Progress
+- Style Transfer with Pix2Pix and CycleGAN  
+- Object Detection and Image Segmentation with Mask R-CNN, Fast R-CNN, and YOLO models  
+- Some work with U-Net, VAE  
+- Some work with Vision Transformers 
+
