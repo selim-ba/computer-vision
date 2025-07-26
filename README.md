@@ -1,6 +1,6 @@
-# A Collection of Computer Vision Projects
+# Computer Vision Projects
 
-This repository presents some computer vision projects I have worked on. For each project, there is a link to the associated article and code (except for the Work In Progress section).
+This repo showcases my journey through key areas of computer vision. Each project includes annotated code and, and a detailed article.
 
 ## Projects
 - **Image Generation with Generative Adversarial Networks**  
