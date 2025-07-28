@@ -3,7 +3,7 @@
 This repo showcases my journey through key areas of computer vision. Each project includes annotated code and, and a detailed article.
 
 ## Image Generation with Generative Adversarial Networks  
-[👉 Article](link is comming) | [👉 GAN Code](https://github.com/selim-ba/computer-vision/blob/main/cv_1_gan.py) | [👉 DCGAN Code](https://github.com/selim-ba/computer-vision/blob/main/cv_2_dcgan.py)
+[👉 Article](https://github.com/selim-ba/computer-vision/blob/main/cv_adversarial_networks_image_generation.pdf) | [👉 GAN Code](https://github.com/selim-ba/computer-vision/blob/main/cv_1_gan.py) | [👉 DCGAN Code](https://github.com/selim-ba/computer-vision/blob/main/cv_2_dcgan.py)
 
 ### 🖼️ Generated Digits (GAN)
 ![Generated Digits with my GAN model](https://github.com/selim-ba/computer-vision/blob/main/gif/gan_generation.gif)
