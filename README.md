@@ -16,6 +16,7 @@ This repo showcases my journey through key areas of computer vision. Each projec
 
 ### 🖼️ Monet -> Translation to Real Landscape -> Back to Monet
 #### Real Monet Painting
+![Real Monet](https://github.com/selim-ba/computer-vision/blob/main/gif/20250804_epoch_100_real_monet.png)
 #### Monet to Landscape
 ![Monet -> Landscape](https://github.com/selim-ba/computer-vision/blob/main/gif/cyclegan_monet2landscape.gif)
 #### Back to Monet
