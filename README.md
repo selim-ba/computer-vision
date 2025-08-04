@@ -11,8 +11,18 @@ This repo showcases my journey through key areas of computer vision. Each projec
 ### 🖼️ Generated Digits (DCGAN)
 ![Generated Digits with my DCGAN model](https://github.com/selim-ba/computer-vision/blob/main/gif/dcgan_generation.gif)
 
+----------
+
 ## Unpaired Image-To-Image Translation with CycleGAN
-[👉 Article]() | [👉 GAN Code]() | [👉 DCGAN Code]()
+[👉 Article] | [👉 CycleGAN Code]
+
+### 🖼️ Real Landscape -> Translation to Monet Painting -> Back to Real Landscape
+#### Real Landscape
+![Real Landscape](https://github.com/selim-ba/computer-vision/blob/main/gif/20250804_epoch_100_real_landscape.png)
+#### Landscape to Monet
+![Landscape to Monet](https://github.com/selim-ba/computer-vision/blob/main/gif/cyclegan_landscape2monet.gif)
+#### Back to Monet
+![Back to Landscape](https://github.com/selim-ba/computer-vision/blob/main/gif/cyclegan_cycle_landscape.gif)
 
 ### 🖼️ Monet -> Translation to Real Landscape -> Back to Monet
 #### Real Monet Painting
