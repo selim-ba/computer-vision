@@ -11,8 +11,14 @@ This repo showcases my journey through key areas of computer vision. Each projec
 ### 🖼️ Generated Digits (DCGAN)
 ![Generated Digits with my DCGAN model](https://github.com/selim-ba/computer-vision/blob/main/gif/dcgan_generation.gif)
 
-## Work in Progress
-- Style Transfer with Pix2Pix and CycleGAN  
+## Unpaired Image-To-Image Translation with CycleGAN
+[👉 Article]() | [👉 GAN Code]() | [👉 DCGAN Code]()
+
+### 🖼️ Monet -> Translation to Real Landscape -> Back to Monet
+![Monet -> Landscape](https://github.com/selim-ba/computer-vision/blob/main/gif/cyclegan_monet2landscape.gif)
+![Back to Monet](https://github.com/selim-ba/computer-vision/blob/main/gif/cyclegan_cycle_monet.gif)
+
+## Work in Progress 
 - Object Detection and Image Segmentation with Mask R-CNN, Fast R-CNN, and YOLO models  
 - Some work with U-Net, VAE  
 - Some work with Vision Transformers 
