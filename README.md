@@ -15,7 +15,10 @@ This repo showcases my journey through key areas of computer vision. Each projec
 [👉 Article]() | [👉 GAN Code]() | [👉 DCGAN Code]()
 
 ### 🖼️ Monet -> Translation to Real Landscape -> Back to Monet
+#### Real Monet Painting
+#### Monet to Landscape
 ![Monet -> Landscape](https://github.com/selim-ba/computer-vision/blob/main/gif/cyclegan_monet2landscape.gif)
+#### Back to Monet
 ![Back to Monet](https://github.com/selim-ba/computer-vision/blob/main/gif/cyclegan_cycle_monet.gif)
 
 ## Work in Progress 
