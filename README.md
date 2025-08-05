@@ -3,7 +3,7 @@
 This repo showcases my journey through key areas of computer vision. Each project includes annotated code and, and a detailed article.
 
 ## Image Generation with Generative Adversarial Networks  
-[👉 Article](https://github.com/selim-ba/computer-vision/blob/main/cv_adversarial_networks_image_generation.pdf) | [👉 GAN Code](https://github.com/selim-ba/computer-vision/blob/main/cv_1_gan.py) | [👉 DCGAN Code](https://github.com/selim-ba/computer-vision/blob/main/cv_2_dcgan.py)
+[📝 My Report – "Image Generation with GANs"](https://github.com/selim-ba/computer-vision/blob/main/cv_adversarial_networks_image_generation.pdf) | [👉 GAN Code](https://github.com/selim-ba/computer-vision/blob/main/cv_1_gan.py) | [👉 DCGAN Code](https://github.com/selim-ba/computer-vision/blob/main/cv_2_dcgan.py)
 
 ### 🖼️ Generated Digits (GAN)
 ![Generated Digits with my GAN model](https://github.com/selim-ba/computer-vision/blob/main/gif/gan_generation.gif)
@@ -14,9 +14,9 @@ This repo showcases my journey through key areas of computer vision. Each projec
 ----------
 
 ## Unpaired Image-To-Image Translation with CycleGAN
-[👉 Article] | [👉 CycleGAN Code]
+[📝 My Report – "Style Transfer with CycleGAN"] | [👉 CycleGAN Code]
 
-### 🖼️ Real Landscape -> Translation to Monet Painting -> Back to Real Landscape
+### 🖼️ Real Landscape Images -> Translation to Monet's Style -> Reconstruction Of Realistic Landscapes
 #### Real Landscape
 ![Real Landscape](https://github.com/selim-ba/computer-vision/blob/main/gif/20250804_epoch_100_real_landscape.png)
 #### Landscape to Monet
