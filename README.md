@@ -14,7 +14,7 @@ This repo showcases my journey through key areas of computer vision. Each projec
 ----------
 
 ## Unpaired Image-To-Image Translation with CycleGAN
-[📝 My Report – "Style Transfer with CycleGAN"] | [👉 CycleGAN Implementation]
+[📝 My Report – "Style Transfer with CycleGAN"](https://github.com/selim-ba/computer-vision/blob/main/cv_cyclegan_style_transfer.pdf) | [👉 CycleGAN Implementation]
 
 ### 🖼️ Style Transfer: Real Landscapes → Monet Style → Reconstructed Landscapes
 #### 🌄 Original Landscape Photographs
