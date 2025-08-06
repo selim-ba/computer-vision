@@ -1,6 +1,6 @@
 # Computer Vision Projects
 
-This repo showcases my journey through key areas of computer vision. Each project includes annotated code and, and a detailed report.
+This repo presents some of my computer vision projects. Each project includes annotated code and a detailed report.
 
 [1. Image Generation with Generative Adversarial Networks](#1-image-generation-with-generative-adversarial-networks)  
 [2. Unpaired Image-To-Image Translation with CycleGAN](#2-unpaired-image-to-image-translation-with-cyclegan)  
