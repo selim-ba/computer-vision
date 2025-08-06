@@ -6,6 +6,8 @@ This repo showcases my journey through key areas of computer vision. Each projec
 [2. Unpaired Image-To-Image Translation with CycleGAN](#2-unpaired-image-to-image-translation-with-cyclegan)  
 [3. Real-Time Urban Scene Segmentation : Mask R-CNN vs U-NET](#3-real-time-urban-scene-segmentation--mask-r-cnn-vs-u-net)
 
+----------
+
 ## 1. Image Generation with Generative Adversarial Networks  
 [📝 My Report – "Image Generation with GANs"](https://github.com/selim-ba/computer-vision/blob/main/cv_adversarial_networks_image_generation.pdf) | [👉 GAN Implementation](https://github.com/selim-ba/computer-vision/blob/main/cv_1_gan.py) | [👉 DCGAN Implementation](https://github.com/selim-ba/computer-vision/blob/main/cv_2_dcgan.py)
 
