@@ -4,7 +4,7 @@ This repo presents some of my computer vision projects. Each project includes an
 
 [1. Image Generation with Generative Adversarial Networks](#1-image-generation-with-generative-adversarial-networks)  
 [2. Unpaired Image-To-Image Translation with CycleGAN](#2-unpaired-image-to-image-translation-with-cyclegan)  
-[3. Real-Time Urban Scene Segmentation : Mask R-CNN vs U-NET](#3-real-time-urban-scene-segmentation--mask-r-cnn-vs-u-net)
+[3. Urban Scene Segmentation with U-Net](#3-urban-scene-segmentation-with-u-net)
 
 ----------
 
@@ -40,5 +40,9 @@ This repo presents some of my computer vision projects. Each project includes an
 
 ----------
 
-## 3. Real-Time Urban Scene Segmentation : Mask R-CNN vs U-NET
-Work In Progress
+## 3. Urban Scene Segmentation with U-Net
+[📝 My Report – "WIP"]() | [👉 U-Net Implementation]()
+
+### 🖼️ U-Net : Predicted Masks
+![Predict Masks on the Cityscape dataset](https://github.com/selim-ba/computer-vision/blob/main/gif/gan_generation.gif)
+
