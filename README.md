@@ -44,5 +44,5 @@ This repo presents some of my computer vision projects. Each project includes an
 [📝 My Report – "WIP"]() | [👉 U-Net Implementation]()
 
 ### 🖼️ U-Net : Predicted Masks
-![Predict Masks on the Cityscape dataset](https://github.com/selim-ba/computer-vision/blob/main/gif/gan_generation.gif)
+![Predict Masks on the Cityscape dataset](https://github.com/selim-ba/computer-vision/blob/main/gif/unet_test_set.gif)
 
